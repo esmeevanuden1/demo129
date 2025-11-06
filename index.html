@@ -1,0 +1,40 @@
+<h1>Hoi, Hoe heet je?</h1>
+<style>
+     h1 {
+        background-image: url('joost.webp'); 
+        background-size: cover; 
+        background-position: center;  
+        color: white; 
+        padding: 200px;
+    }
+
+    
+</style>
+
+<script>
+    function doen(){
+	var x = document.getElementById("invoerveld").value; 
+	console.log(x);
+	document.getElementById("uitvoerveld").innerHTML = "Hoi" + x;
+
+if (x == "Joost" || x == "joost") {
+                document.getElementById("uitvoerveld").innerHTML = x + ", je bent niet welkom!";
+            } else {
+                document.getElementById("uitvoerveld").innerHTML = "Hoi " + x + "!";
+            }
+       
+    }
+
+</script>
+
+
+
+
+
+
+
+<input id="invoerveld">
+<input type= "button" value="klik" onclick="doen()">
+<div id= "uitvoerveld"/></div>
+
+
