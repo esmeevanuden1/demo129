@@ -1,0 +1,57 @@
+
+<style> 
+    textarea{
+        background-color:green;
+        border:5px solid orange;
+    }
+
+    h1.belangrijk:hover{
+        background-color: red;
+        border: 5px dashed blue;
+    }
+    .belangrijk{
+        background-color: grey;
+    }
+
+
+</style>
+
+<script>
+    function doeditnetjes(){
+        alert();
+    }
+
+
+</script>
+
+hoi
+nog een woord
+
+TAG
+innerHTML
+ELEMENT
+
+ATTRIBUUT
+EVENT
+EVENTLISTENER
+Reference Guide / API / Docs / Reference
+
+<h1 id="felix" class="belangrijk" onclick="doeditnetjes()">ff proberen</h1>
+<textarea cols = "5" readonly>asdfasdf</textarea>
+
+hoi <br />
+<input type="file" id="i35" class="belangrijk">
+2 benen
+- syntaxvaardigheid
+- bibliotheekbekendheid
+<h1>ff proberen</h1>
+
+
+iwp
+iwp321pwi
+
+
+
+
+allemaal
+
